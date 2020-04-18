@@ -1,3 +1,15 @@
+.container_top_todo{
+  padding: 20px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+  margin: 80px 20px ;
+
+}
+
+.form_control{
+  width: 600px;
+}
+
+
 .parent {
     display: flex;
     flex-direction: row;
@@ -46,7 +58,7 @@
   .card-body-item {
     height: 42px;
     border-radius: 12px;
-    margin: 2px;
+    margin: 3px;
     box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
     padding: 2px;
   }
