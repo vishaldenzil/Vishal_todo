@@ -15,7 +15,7 @@
     padding-left: 11px;
   }
 
-  .card {
+  .card_ul {
     width: 90%
   }
 
@@ -44,12 +44,27 @@
   }
 
   .card-body-item {
-    background: blue;
     height: 42px;
-    border: 1px solid black;
-    padding: 3px;
-    margin-top: 5px;
+    border-radius: 12px;
+    margin: 2px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+    padding: 2px;
   }
+
+  li:nth-child(odd) {
+     background-color: aqua;
+   }
+
+   .card-body-item{
+     background-color: blueviolet;
+   }
+
+   .checkbox_input {
+      width: 24px;
+      height: 24px;
+      padding: 2px;
+      margin: 2px;
+   }
 
   .button_div {
     width: 10%;
@@ -58,4 +73,9 @@
   .todo_single {
     display: flex;
     align-items: center;
+  }
+  
+  .checkbox_item {
+    width : 10%;
+    margin: 3px;
   }
